@@ -83,6 +83,7 @@ public class Main {
             } catch (IllegalArgumentException e) {
                 System.out.println("Ошибка! Строка не является математической операцией, либо операция не поддерживается.");
             }
+            System.exit(0);
         }
         return result;
     }
